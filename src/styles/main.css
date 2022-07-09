@@ -17,6 +17,10 @@
 	letter-spacing: 2px;
 }
 
+.gitLink{
+	text-decoration: none;
+	color: var(--gray0);
+}
 .gitIcon{
 	display: flex;
 	align-items: center;
