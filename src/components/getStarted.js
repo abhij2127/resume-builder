@@ -1,3 +1,4 @@
+import GitIcon from '../resources/gitIco.svg';
 export default function Starter(){
 	return(
 		<div className="starter">
@@ -7,7 +8,7 @@ export default function Starter(){
 					Resume builder is an open source project and you can contribute to it on github.
 				<a href="https://github.com/abhij2127/resume-builder.git" className="gitLink" target="_blank">
 					<div className="gitIcon">
-						<img src="./gitIco.svg" /> <div>Contribute on GitHub</div>
+						<img src={GitIcon} /> <div>Contribute on GitHub</div>
 					</div>
 				</a>
 				<div className="fireUp-container">

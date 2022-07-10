@@ -7,7 +7,7 @@
 }
 .rocket{
 	font-size: 30vh;
-	transform: rotate(-45deg);
+	/*transform: rotate(-45deg);*/
 }
 
 .description{
