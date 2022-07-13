@@ -1,8 +1,9 @@
 .starter{
 	width: 70vw;
 	margin:auto;
-	margin-top:100px;
+	height: 100vh;
 	display: flex;
+	align-items: center;
 	justify-content: space-evenly;
 }
 .rocket{
