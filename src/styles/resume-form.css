@@ -1,6 +1,6 @@
+
 .resume-form-container{
 	height: 100vh;
-	color: white;
 	background: #1b1b32;
   background-image: linear-gradient(
       115deg,
@@ -11,8 +11,63 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #f3f3f3;
+	display: flex;
+    margin: 0;
 }
 
 h2{
 	color: forestgreen;
 }
+
+
+
+.form-sub-container{
+	max-width: 720px;
+	width: 100%;
+	margin: auto;
+	margin-top: 10vh;
+	padding: 10px;
+
+}
+
+.form-title{
+	 font-size: 2em;
+    font-weight: 100;
+	margin:0;
+	text-align: center;
+	padding: 0;
+}
+
+.form-subtitle{
+	margin: 0;
+	font-style: italic;
+	text-align: center;
+	
+}
+
+#applicant-details-form{
+	margin-top: 3em;
+	background: rgba(25,25,50,0.8);
+	padding: 2em;
+}
+
+.form-group{
+	margin-bottom: 22px;
+}
+
+.form-input{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.65em;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	
+}
+
