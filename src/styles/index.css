@@ -10,6 +10,7 @@
     --blue: #0084a5;
     --purple: #a82dd1;
     --yellow: #fff565;
+	overflow-x: hidden;
 }
 
 
@@ -20,6 +21,7 @@ body{
     padding: 0;
     color: white;
     font-family: sans-serif;
+	overflow-x: hidden;
 }
 
 ::-webkit-scrollbar{

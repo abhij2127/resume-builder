@@ -1,11 +1,13 @@
 .starter{
 	width: 70vw;
 	margin:auto;
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
 }
+
+
 .rocket{
 	font-size: 30vh;
 	/*transform: rotate(-45deg);*/
@@ -52,4 +54,24 @@
 .fire-up:hover{
 	background: linear-gradient(90deg,orange,orangered);
 	border: none;
+}
+
+@media screen and (max-width: 600px){
+	.starter{
+		flex-direction: column;
+		width: 90vw;
+	}
+	.description{
+		width: 100%;
+		text-align: center;
+	}
+	.fireUp-container{
+		font-size: large;
+	}
+}
+
+@media screen and (max-height: 500px){
+	.starter{
+		margin-top: 17vh;
+	}
 }
