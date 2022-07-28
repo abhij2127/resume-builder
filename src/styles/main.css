@@ -60,6 +60,7 @@
 	.starter{
 		flex-direction: column;
 		width: 90vw;
+		margin-top: 17vh;
 	}
 	.description{
 		width: 100%;
